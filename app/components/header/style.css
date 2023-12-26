@@ -1,0 +1,25 @@
+header {
+    background-color: purple;
+}
+
+.header-container {
+    max-width: 1480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+}
+.right-side:not(:first-child) {
+    display: flex;
+    column-gap: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
